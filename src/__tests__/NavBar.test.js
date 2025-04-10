@@ -16,7 +16,7 @@ test("renders two <a> elements inside the <nav> element", () => {
   const nav = container.querySelector("nav");
   const anchorTags = nav.querySelectorAll("a"); // find all the child <a> elements
 
-  expect(anchorTags).toHaveLength(2);
+  expect(anchorTags).toHaveLength(3);
 });
 
 test("renders each <a> element with the correct attributes", () => {
